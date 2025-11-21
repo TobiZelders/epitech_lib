@@ -1,17 +1,18 @@
 /*
 ** EPITECH PROJECT, 2025
-** Day 05, task07
+** printf
 ** File description:
 ** No file there, just an epitech header example .
 ** You can even have multiple lines if you want !
 */
 
-int my_find_prime_sup(int nb)
+#include <stdarg.h>
+#include "my.h"
+
+int conv_s(va_list list)
 {
-    while (1) {
-        if (my_is_prime(nb)){
-            return nb;
-        }
-        nb++;
-    }
+    char *str = va_arg(list, char *);
+
+    my_putstr(str);
+    return my_strlen(str);
 }

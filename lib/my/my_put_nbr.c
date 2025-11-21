@@ -6,6 +6,8 @@
 ** You can even have multiple lines if you want !
 */
 
+#include "my.h"
+
 int check_length(int nb)
 {
     int divider = 1;

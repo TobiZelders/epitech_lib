@@ -6,6 +6,8 @@
 ** You can even have multiple lines if you want !
 */
 
+#include "my.h"
+
 int my_putstr(char const *str)
 {
     int i = 0;

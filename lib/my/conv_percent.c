@@ -1,15 +1,16 @@
 /*
 ** EPITECH PROJECT, 2025
-** Day 04, task01
+** printf
 ** File description:
 ** No file there, just an epitech header example .
 ** You can even have multiple lines if you want !
 */
 
-void my_swap(int *a, int *b)
-{
-    int c = *a;
+#include <stdarg.h>
+#include "my.h"
 
-    *a = *b;
-    *b = c;
+int conv_percent(va_list list)
+{
+    my_putchar('%');
+    return 1;
 }

@@ -1,17 +1,12 @@
 /*
 ** EPITECH PROJECT, 2025
-** Day 03, task04
+** Day 07, task02
 ** File description:
 ** No file there, just an epitech header example .
 ** You can even have multiple lines if you want !
 */
 
-int my_isneg(int n)
+int my_str_isalpha(char const *str)
 {
-    if (n >= 0) {
-        my_putchar('P');
-    } else {
-        my_putchar('N');
-    }
     return 0;
 }
